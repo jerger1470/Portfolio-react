@@ -5,9 +5,11 @@ import Contact from "./pages/Contact";
 import Portfolio from "./pages/Portfolio";
 import NoMatch from "./pages/NoMatch";
 import Nav from "./components/Nav";
+import './App.css';
 
 function App() {
   return (
+    <div className="container">
     <Router>
       <div>
         <Nav />
@@ -27,6 +29,7 @@ function App() {
         </Switch>
       </div>
     </Router>
+    </div>
   );
 }
 
