@@ -1,35 +1,39 @@
-html, body {
+html {
 	height: 100%;
+	width: 100%;
 	margin: 0;
 }
 
 body {
    
     font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-
 	background-color: #042c04;
+	height: 100%;
+	width: 100%;
+	margin: 0;
        
 }
 
+.container{
+    background-image: url(./images/wallpaper.jpg);
+  }
 
   a:visited {
-	color: black;
+	color: rgb(48, 19, 144);
   }
   
   a:hover {
-	color: whitesmoke;
-  }
-    
-  a:active {
 	color: blue;
   }
+    
+ 
 
 .card{
 padding: 50px;
 
 }
 
-#containerForm{
+.container{
 	background-color: #042c04;
 }
 
@@ -45,22 +49,13 @@ padding: 50px;
 	  
 	  
 }
-#userEmail{
-	
-	border: 3px solid #cccccc;
-	padding: 5px;
-	font-family: Tahoma, sans-serif;
+label {
+	color: whitesmoke;
+	font-size: 30px;
+	text-align: left;
 }
 
-#userMessage{
-	width: 450px;
-	height: 120px;
-	border: 3px solid #cccccc;
-	padding: 5px;
-	font-family: Tahoma, sans-serif;
-}
-
-#submitButton{
+.submitButton{
 padding-left: 200px;
 }
 
@@ -88,7 +83,7 @@ h2 {
 	margin-bottom: 0px;
 }
 
-footer {
+.footer {
 	padding: 20px 0;
 	clear: both;
 	font-size: 12px;
@@ -99,6 +94,7 @@ footer {
 	border-top: 8px solid lightskyblue;
 	height: 50px;
 	width: 100%;
+	
 	
 }
 

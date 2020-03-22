@@ -5,7 +5,8 @@ import Contact from "./pages/Contact";
 import Portfolio from "./pages/Portfolio";
 import NoMatch from "./pages/NoMatch";
 import Nav from "./components/Nav";
-import './App.css';
+import Footer from "./components/Footer";
+
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
             <NoMatch />
           </Route>
         </Switch>
+        <Footer/>
       </div>
     </Router>
     </div>

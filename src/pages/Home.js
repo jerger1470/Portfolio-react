@@ -1,6 +1,7 @@
 import React from "react";
 import { Col, Row, Container } from "../components/Grid";
-import Profile from "../images/profile.jpg"
+import Profile from "../images/profile.jpg";
+import Resume from "../images/resume.pdf";
 
 function Home (){
     return (
@@ -27,9 +28,10 @@ function Home (){
                     <li className="list-group-item">React</li>
                   </ul>
                   <div className="card-body">
-                  <a href="https://www.linkedin.com/in/bryanmjerger/" className="card-link">Click here for Linkedin Profile</a>
-                  <a href="https://github.com/jerger1470" className="card-link">Click here for Git Hub</a>
-                  <a href="./assets/images/resume v 2.pdf" className="card-link">Click here for resume</a>
+                    <h5 style={{"text-align": "center"}}>References</h5>
+                  <a href="https://www.linkedin.com/in/bryanmjerger/" className="card-link" style={{"text-align": "left"}}>Linkedin</a>{"\n"}
+                  <a href="https://github.com/jerger1470" className="card-link" style={{"text-align": "left"}}>Git Hub</a>{"\n"}
+                  <a href={Resume} className="card-link" style={{"text-align": "left"}}>Resume</a>{"\n"}
                 </div>
             </div>  
                 </Col>
